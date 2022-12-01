@@ -49,7 +49,7 @@ class App
         g.stroke();
         g.fill();
 
-        //ball
+        //ball 1
         g.beginPath();
         g.fillStyle = "red";
         g.moveTo(400,400);
@@ -92,7 +92,7 @@ class App
 
 
         
-        //ball
+        //ball 2
         g.beginPath();
         g.fillStyle = "blue";
         g.moveTo(500,325);
@@ -101,7 +101,7 @@ class App
         g.fill();
         g.closePath();
 
-        //ball
+        //ball 3
         g.beginPath();
         g.fillStyle = "gold";
         g.moveTo(490,465);
@@ -110,7 +110,7 @@ class App
         g.fill();
         g.closePath();
 
-        //ball
+        //ball 4
         g.beginPath();
         g.fillStyle = "silver";
         g.moveTo(425,300);
@@ -119,7 +119,7 @@ class App
         g.fill();
         g.closePath();
 
-        //ball
+        //ball 5
         g.beginPath();
         g.fillStyle = "purple";
         g.moveTo(475,390);
@@ -147,7 +147,86 @@ class App
         g.stroke();
         g.fill();
 
+        //ball 6
+        g.beginPath();
+        g.fillStyle = "purple";
+        g.moveTo(460,255);
+        g.arc(460,255,10,0,Math.PI*2);
+        g.stroke();
+        g.fill();
+        g.closePath();
 
+        //ball 7
+        g.beginPath();
+        g.fillStyle = "blue";
+        g.moveTo(420,480);
+        g.arc(420,480,10,0,Math.PI*2);
+        g.stroke();
+        g.fill();
+        g.closePath();
+
+        //ball 8
+        g.beginPath();
+        g.fillStyle = "red";
+        g.moveTo(560,480);
+        g.arc(560,480,10,0,Math.PI*2);
+        g.stroke();
+        g.fill();
+        g.closePath();
+
+        //ball 9
+        g.beginPath();
+        g.fillStyle = "silver";
+        g.moveTo(370,440);
+        g.arc(370,440,10,0,Math.PI*2);
+        g.stroke();
+        g.fill();
+        g.closePath();
+
+        //ball 10
+        g.beginPath();
+        g.fillStyle = "gold";
+        g.moveTo(440,365);
+        g.arc(440,365,10,0,Math.PI*2);
+        g.stroke();
+        g.fill();
+        g.closePath();
+
+        //ball 11
+        g.beginPath();
+        g.fillStyle = "fuchsia";
+        g.moveTo(465,300);
+        g.arc(465,300,10,0,Math.PI*2);
+        g.stroke();
+        g.fill();
+        g.closePath();
+
+        //ball 12
+        g.beginPath();
+        g.fillStyle = "aqua";
+        g.moveTo(360,400);
+        g.arc(360,400,10,0,Math.PI*2);
+        g.stroke();
+        g.fill();
+        g.closePath();
+
+        //ball 13
+        g.beginPath();
+        g.fillStyle = "honeydew";
+        g.moveTo(445,410);
+        g.arc(445,410,10,0,Math.PI*2);
+        g.stroke();
+        g.fill();
+        g.closePath();
+
+        //ball 14
+        g.beginPath();
+        g.fillStyle = "lightseagreen";
+        g.moveTo(525,440);
+        g.arc(525,440,10,0,Math.PI*2);
+        g.stroke();
+        g.fill();
+        g.closePath();
 
     }
     tekenhuis()
