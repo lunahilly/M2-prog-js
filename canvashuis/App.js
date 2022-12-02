@@ -277,14 +277,46 @@ class App
         g.closePath();
         g.stroke();
         g.fill();
+
+        g.beginPath();
+        g.fillStyle = "brown"
+        g.moveTo(325,532);
+        g.lineTo(400,550);
+        g.lineTo(400,418);
+        g.lineTo(325,400);
+        g.lineTo(325,532);
+        g.closePath();
+        g.stroke();
+        g.fill();
+
+        //deurknop
+        g.beginPath();
+        g.fillStyle = "black";
+        g.moveTo(385,475);
+        g.arc(385,475,10,0,Math.PI*2);
+        g.stroke();
+        g.fill();
+        g.closePath();
+
+
+        //raam
+        g.beginPath();
+        g.fillStyle = "lightblue"
+        g.moveTo(500,520);
+        g.lineTo(425,500);
+        g.lineTo(425,430);
+        g.lineTo(500,450);
+        g.lineTo(500,520);
+        g.closePath();
+        g.stroke();
+        g.fill();
+        
         console.log(canvas);
-
-
         
     }
     runApplication()
     {
-        this.Kerst()
+        this.tekenhuis()
     }
 }
 let app = new App();
