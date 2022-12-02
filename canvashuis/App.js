@@ -237,9 +237,11 @@ class App
         let g = canvas.getContext("2d");
         document.getElementById("canvasId");
         console.log(g);
+        let randomGetal = Math.random();
+        console.log(randomGetal)
         
         g.beginPath();
-        g.fillStyle = "red"
+        g.fillStyle = "tomato"
         g.moveTo(200,300);
         g.lineTo(600,400);
         g.lineTo(700,200);
@@ -249,7 +251,7 @@ class App
         g.stroke();
         g.fill();
         g.beginPath();
-        g.fillStyle = "white"
+        g.fillStyle = "lightgrey"
         g.moveTo(600,600);
         g.lineTo(600,400);
         g.lineTo(200,300);
@@ -279,7 +281,7 @@ class App
         g.fill();
 
         g.beginPath();
-        g.fillStyle = "brown"
+        g.fillStyle = "saddlebrown"
         g.moveTo(325,532);
         g.lineTo(400,550);
         g.lineTo(400,418);
@@ -292,8 +294,8 @@ class App
         //deurknop
         g.beginPath();
         g.fillStyle = "black";
-        g.moveTo(385,475);
-        g.arc(385,475,10,0,Math.PI*2);
+        g.moveTo(390,485);
+        g.arc(390,485,5,0,Math.PI*2);
         g.stroke();
         g.fill();
         g.closePath();
@@ -301,17 +303,33 @@ class App
 
         //raam
         g.beginPath();
-        g.fillStyle = "lightblue"
-        g.moveTo(500,520);
+        if (randomGetal == 0)
+        {
+            g.fillStyle = "green"
+        }
+        else if (randomGetal < 0.1)
+        {
+            g.fillStyle = "lightgreen"
+        }
+        else if( randomGetal > 0.2 , randomGetal < 0.6)
+        {
+            g.fillStyle = "teal"
+        }
+        else
+        {
+            g.fillStyle = "Darkolivegreen"
+        }
+        g.moveTo(498,518);
         g.lineTo(425,500);
-        g.lineTo(425,430);
+        g.lineTo(425,432);
         g.lineTo(500,450);
-        g.lineTo(500,520);
+        g.lineTo(498,518);
         g.closePath();
         g.stroke();
         g.fill();
         
-        console.log(canvas);
+        console.log(canvas)
+        
         
     }
     runApplication()
